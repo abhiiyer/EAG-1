@@ -1,0 +1,4 @@
+
+        Nomic's embed-text model is a high-performance embedding model available on HuggingFace. 
+        It can be used for semantic search and integrates well with FAISS.
+    

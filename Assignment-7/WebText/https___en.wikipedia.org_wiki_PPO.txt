@@ -1,0 +1,3 @@
+
+        PPO (Proximal Policy Optimization) is a reinforcement learning method that optimizes policies using a clipped objective.
+    

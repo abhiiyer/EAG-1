@@ -1,0 +1,3 @@
+
+        OpenAI's text-embedding-3-small is a compact, high-quality embedding model suitable for semantic search and clustering.
+    
