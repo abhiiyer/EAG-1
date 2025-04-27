@@ -1,0 +1,134 @@
+[
+  {
+    "cif": "CIF0001",
+    "acc_no": "AC1234567890",
+    "segment": "GOLD",
+    "name": "Ali",
+    "email": "ali@example.com",
+    "products": [
+      "FD",
+      "FX"
+    ],
+    "fd_amt": 100000,
+    "maturity_date": "2025-12-31",
+    "balance": 98000,
+    "balance_history": {
+      "Jan": 102000,
+      "Feb": 99000,
+      "Mar": 98000
+    },
+    "int_rate": 3.25,
+    "proposed_rate": 4.0,
+    "employer": "DP World",
+    "industry": "Logistics",
+    "net_worth": 80000,
+    "recent_activity": "Salary credit + FX to India",
+    "campaign_history": "FD rate offer in Jan; accepted",
+    "history": {
+      "FD": [
+        "1-year FD matured in Mar",
+        "New FD opened in Apr"
+      ],
+      "FX": [
+        "3 transfers to Wio in Q1"
+      ]
+    },
+    "transactions": [
+      {
+        "date": "2024-07-05",
+        "description": "Salary from Etisalat",
+        "amount": 20000
+      },
+      {
+        "date": "2024-07-01",
+        "description": "FX transfer to India",
+        "amount": 15000
+      }
+    ]
+  },
+  {
+    "cif": "CIF0002",
+    "acc_no": "AC1234567891",
+    "segment": "NEO",
+    "name": "Zainab",
+    "email": "zainab@example.com",
+    "products": [
+      "FX"
+    ],
+    "fd_amt": 0,
+    "maturity_date": "2025-12-31",
+    "balance": 58000,
+    "balance_history": {
+      "Jan": 62000,
+      "Feb": 60000,
+      "Mar": 58000
+    },
+    "int_rate": 3.0,
+    "proposed_rate": 3.0,
+    "employer": "Etisalat",
+    "industry": "Telecom",
+    "net_worth": 60000,
+    "recent_activity": "Monthly salary from Etisalat; no investments",
+    "campaign_history": "Credit card offer in Jan; rejected",
+    "history": {
+      "FX": [
+        "Large remittance to India in Jan",
+        "2 transfers to Wio"
+      ]
+    },
+    "transactions": [
+      {
+        "date": "2024-07-05",
+        "description": "Salary from Etisalat",
+        "amount": 20000
+      },
+      {
+        "date": "2024-07-01",
+        "description": "FX transfer to India",
+        "amount": 15000
+      }
+    ]
+  },
+  {
+    "cif": "CIF0003",
+    "acc_no": "AC1234567892",
+    "segment": "GOLD",
+    "name": "Harish",
+    "email": "harish@example.com",
+    "products": [
+      "INV"
+    ],
+    "fd_amt": 100000,
+    "maturity_date": "2025-12-31",
+    "balance": 100000,
+    "balance_history": {
+      "Jan": 100000,
+      "Feb": 100500,
+      "Mar": 100000
+    },
+    "int_rate": 3.5,
+    "proposed_rate": 4.0,
+    "employer": "ADNOC",
+    "industry": "Energy",
+    "net_worth": 150000,
+    "recent_activity": "Stable investment in fixed income",
+    "campaign_history": "Wealth account opened in Jan",
+    "history": {
+      "INV": [
+        "Invested in fixed-income portfolio in Mar"
+      ]
+    },
+    "transactions": [
+      {
+        "date": "2024-07-05",
+        "description": "Salary from Etisalat",
+        "amount": 20000
+      },
+      {
+        "date": "2024-07-01",
+        "description": "FX transfer to India",
+        "amount": 15000
+      }
+    ]
+  }
+]

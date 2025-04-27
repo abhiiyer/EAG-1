@@ -1,0 +1,82 @@
+[
+  {
+    "rm_id": "RM001",
+    "name": "Abhishek",
+    "month": "July",
+    "targets": {
+      "FD": 1000000,
+      "FX": 500000,
+      "INV": 300000
+    },
+    "actuals": {
+      "FD": 600000,
+      "FX": 120000,
+      "INV": 180000
+    },
+    "incentives": {
+      "FD": 8000,
+      "FX": 12000,
+      "INV": 6000
+    }
+  },
+  {
+    "rm_id": "RM002",
+    "name": "Sana",
+    "month": "July",
+    "targets": {
+      "FD": 800000,
+      "FX": 200000,
+      "INV": 150000
+    },
+    "actuals": {
+      "FD": 780000,
+      "FX": 50000,
+      "INV": 120000
+    },
+    "incentives": {
+      "FD": 6000,
+      "FX": 10000,
+      "INV": 5000
+    }
+  },
+  {
+    "rm_id": "RM003",
+    "name": "Karan",
+    "month": "July",
+    "targets": {
+      "FD": 1200000,
+      "FX": 400000,
+      "INV": 250000
+    },
+    "actuals": {
+      "FD": 400000,
+      "FX": 300000,
+      "INV": 100000
+    },
+    "incentives": {
+      "FD": 9000,
+      "FX": 8000,
+      "INV": 7000
+    }
+  },
+  {
+    "rm_id": "RM004",
+    "name": "Meera",
+    "month": "July",
+    "targets": {
+      "FD": 900000,
+      "FX": 600000,
+      "INV": 350000
+    },
+    "actuals": {
+      "FD": 890000,
+      "FX": 100000,
+      "INV": 120000
+    },
+    "incentives": {
+      "FD": 5000,
+      "FX": 15000,
+      "INV": 9000
+    }
+  }
+]

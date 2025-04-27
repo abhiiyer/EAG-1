@@ -1,0 +1,111 @@
+[
+  {
+    "name": "Ali",
+    "balance_trend": "drop",
+    "products": [
+      "Savings Account",
+      "Fixed Deposit"
+    ],
+    "recent_activity": "3 international transfers to Wio Bank",
+    "campaign_history": "Offered FX in Jan; no response",
+    "employer": "Emirates Airlines",
+    "industry": "Aviation",
+    "net_worth_history": [
+      150000,
+      130000,
+      100000
+    ],
+    "balance_history": {
+      "Jan": 98000,
+      "Feb": 58000,
+      "Mar": 30000
+    }
+  },
+  {
+    "name": "Ramesh",
+    "balance_trend": "increase",
+    "products": [
+      "Savings Account",
+      "Credit Card"
+    ],
+    "recent_activity": "High debit volume in March",
+    "campaign_history": "Credit card upsell in Feb; accepted",
+    "employer": "TCS",
+    "industry": "IT Services",
+    "net_worth_history": [
+      45000,
+      47000,
+      65000
+    ],
+    "balance_history": {
+      "Jan": 30000,
+      "Feb": 55000,
+      "Mar": 74000
+    }
+  },
+  {
+    "name": "Fatima",
+    "balance_trend": "stable",
+    "products": [
+      "Fixed Deposit"
+    ],
+    "recent_activity": "No major movement",
+    "campaign_history": "FD renewal offered in Mar",
+    "employer": "ADNOC",
+    "industry": "Oil & Gas",
+    "net_worth_history": [
+      210000,
+      210000,
+      210000
+    ],
+    "balance_history": {
+      "Jan": 210000,
+      "Feb": 210000,
+      "Mar": 210000
+    }
+  },
+  {
+    "name": "Zainab",
+    "balance_trend": "drop",
+    "products": [
+      "Savings Account"
+    ],
+    "recent_activity": "Monthly salary from Etisalat; no investments",
+    "campaign_history": "Credit card offer in Jan; rejected",
+    "employer": "Etisalat",
+    "industry": "Telecom",
+    "net_worth_history": [
+      60000,
+      48000,
+      34000
+    ],
+    "balance_history": {
+      "Jan": 57000,
+      "Feb": 42000,
+      "Mar": 29000
+    }
+  },
+  {
+    "name": "Harish",
+    "balance_trend": "increase",
+    "products": [
+      "Savings Account",
+      "Fixed Deposit",
+      "Credit Card"
+    ],
+    "recent_activity": "Large FD renewal + foreign exchange transaction",
+    "campaign_history": "FX offer in Mar; accepted",
+    "employer": "Deloitte",
+    "industry": "Consulting",
+    "net_worth_history": [
+      100000,
+      135000,
+      160000
+    ],
+    "balance_history": {
+      "Jan": 90000,
+      "Feb": 125000,
+      "Mar": 158000
+    }
+  }
+]

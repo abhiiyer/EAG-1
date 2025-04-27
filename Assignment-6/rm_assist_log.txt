@@ -1,0 +1,141 @@
+==== RM ASSIST LOG START ====
+
+=== Interaction Log ===
+RM: Abhishek
+Customer CIF: CIF0001
+Products: FD, FX
+Decision: Offer FX advisory for next AED 10K transfer
+Message: Customer Ali has shown drop trend. Recommended: Offer FX advisory for next AED 10K transfer
+Prompt: You are an RM Assist agent.
+
+🧑 RM Name: Abhishek (Location not needed)
+🎯 Focus Product: based on target gap and incentive
+
+📂 Customer Chosen: CIF0001
+Segment: GOLD
+Balance: 98000.0
+Products: FD, FX
+
+Please reason step-by-step.
+Provide suggestions in structured, JSON-style format.
+Self-verify before concluding. If unsure, ask RM.
+
+=== Interaction Log ===
+RM: Abhishek
+Customer CIF: CIF0001
+Products: FD, FX
+Decision: Offer FX advisory for next AED 10K transfer
+Message: Customer Ali has shown drop trend. Recommended: Offer FX advisory for next AED 10K transfer
+Prompt: You are an RM Assist agent.
+
+🧑 RM Name: Abhishek (Location not needed)
+🎯 Focus Product: based on target gap and incentive
+
+📂 Customer Chosen: CIF0001
+Segment: GOLD
+Balance: 98000.0
+Products: FD, FX
+
+Please reason step-by-step.
+Provide suggestions in structured, JSON-style format.
+Self-verify before concluding. If unsure, ask RM.
+
+=== Interaction Log ===
+RM: Sana
+Customer CIF: CIF0002
+Products: FX
+Decision: Offer FX advisory for next AED 10K transfer
+Message: Customer Zainab has shown drop trend. Recommended: Offer FX advisory for next AED 10K transfer
+Prompt: You are an RM Assist agent.
+
+🧑 RM Name: Sana (Location not needed)
+🎯 Focus Product: based on target gap and incentive
+
+📂 Customer Chosen: CIF0002
+Segment: NEO
+Balance: 58000.0
+Products: FX
+
+Please reason step-by-step.
+Provide suggestions in structured, JSON-style format.
+Self-verify before concluding. If unsure, ask RM.
+
+=== Interaction Log ===
+RM: Sana
+Customer CIF: CIF0003
+Products: INV
+Decision: Introduce investment webinar and advisory
+Message: Customer Harish has shown stable trend. Recommended: Introduce investment webinar and advisory
+Prompt: You are an RM Assist agent.
+
+🧑 RM Name: Sana (Location not needed)
+🎯 Focus Product: based on target gap and incentive
+
+📂 Customer Chosen: CIF0003
+Segment: GOLD
+Balance: 100000.0
+Products: INV
+
+Please reason step-by-step.
+Provide suggestions in structured, JSON-style format.
+Self-verify before concluding. If unsure, ask RM.
+
+=== Interaction Log ===
+RM: Abhishek
+Customer CIF: CIF0001
+Products: FD, FX
+Decision: Offer FX advisory for next AED 10K transfer
+Message: Customer Ali has shown drop trend. Recommended: Offer FX advisory for next AED 10K transfer
+Prompt: You are an RM Assist agent.
+
+🧑 RM Name: Abhishek (Location not needed)
+🎯 Focus Product: based on target gap and incentive
+
+📂 Customer Chosen: CIF0001
+Segment: GOLD
+Balance: 98000.0
+Products: FD, FX
+
+Please reason step-by-step.
+Provide suggestions in structured, JSON-style format.
+Self-verify before concluding. If unsure, ask RM.
+
+=== Interaction Log ===
+RM: Sana
+Customer CIF: CIF0002
+Products: FX
+Decision: Offer FX advisory for next AED 10K transfer
+Message: Customer Zainab has shown drop trend. Recommended: Offer FX advisory for next AED 10K transfer
+Prompt: You are an RM Assist agent.
+
+🧑 RM Name: Sana (Location not needed)
+🎯 Focus Product: based on target gap and incentive
+
+📂 Customer Chosen: CIF0002
+Segment: NEO
+Balance: 58000.0
+Products: FX
+
+Please reason step-by-step.
+Provide suggestions in structured, JSON-style format.
+Self-verify before concluding. If unsure, ask RM.
+
+=== Interaction Log ===
+RM: Sana
+Customer CIF: CIF0003
+Products: INV
+Decision: Introduce investment webinar and advisory
+Message: Customer Harish has shown stable trend. Recommended: Introduce investment webinar and advisory
+Prompt: You are an RM Assist agent.
+
+🧑 RM Name: Sana (Location not needed)
+🎯 Focus Product: based on target gap and incentive
+
+📂 Customer Chosen: CIF0003
+Segment: GOLD
+Balance: 100000.0
+Products: INV
+
+Please reason step-by-step.
+Provide suggestions in structured, JSON-style format.
+Self-verify before concluding. If unsure, ask RM.
