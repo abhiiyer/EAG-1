@@ -1,0 +1,32 @@
+# services/f1_scraper.py
+
+import requests
+from bs4 import BeautifulSoup
+import pandas as pd
+
+def scrape_f1_standings():
+    url = "https://www.topendsports.com/sport/formula1/standings/2024.htm"
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+    }
+    response = requests.get(url, headers=headers)
+    soup = BeautifulSoup(response.text, "html.parser")
+
+    # Find the first table under "Drivers' Championship" heading
+    table = soup.find("table")
+
+    if not table:
+        raise Exception("F1 Standings Table not found on TopEndSports!")
+
+    data = []
+    for row in table.find_all("tr")[1:]:  # skip header row
+        cols = row.find_all("td")
+        if len(cols) >= 4:
+            position = cols[0].text.strip()
+            driver = cols[1].text.strip()
+            team = cols[2].text.strip()
+            points = cols[3].text.strip()
+            data.append([position, driver, team, points])
+
+    df = pd.DataFrame(data, columns=["Position", "Driver", "Team", "Points"])
+    return df
