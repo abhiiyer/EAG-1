@@ -1,0 +1,42 @@
+[
+    {
+        "timestamp": "2025-05-22 15:19:33.768529",
+        "tool_name": "competitor_intelligence",
+        "reason": "Retry 1"
+    },
+    {
+        "timestamp": "2025-05-22 15:19:43.802924",
+        "tool_name": "competitor_intelligence",
+        "reason": "Retry 2"
+    },
+    {
+        "timestamp": "2025-05-22 15:19:53.842573",
+        "tool_name": "competitor_intelligence",
+        "reason": "Retry 3"
+    },
+    {
+        "timestamp": "2025-05-22 15:19:53.846191",
+        "tool_name": "competitor_intelligence",
+        "reason": "Max retries reached for Compare FD Rates"
+    },
+    {
+        "timestamp": "2025-05-22 15:20:03.896287",
+        "tool_name": "competitor_intelligence",
+        "reason": "Retry 1"
+    },
+    {
+        "timestamp": "2025-05-22 15:20:13.942779",
+        "tool_name": "competitor_intelligence",
+        "reason": "Retry 2"
+    },
+    {
+        "timestamp": "2025-05-22 15:20:23.990437",
+        "tool_name": "competitor_intelligence",
+        "reason": "Retry 3"
+    },
+    {
+        "timestamp": "2025-05-22 15:20:23.995060",
+        "tool_name": "competitor_intelligence",
+        "reason": "Max retries reached for Compare FD Rates"
+    }
+]

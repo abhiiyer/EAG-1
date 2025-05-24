@@ -1,0 +1,9 @@
+=== Simulation Report ===
+Total Test Cases: 9
+Successful Executions: 4
+HITL Triggered: 5
+
+=== Tool Performance ===
+fd_analysis -> Success: 7, Failure: 0, Executions: 7
+competitor_intelligence -> Success: 5, Failure: 0, Executions: 5
+transaction_analysis -> Success: 3, Failure: 0, Executions: 3

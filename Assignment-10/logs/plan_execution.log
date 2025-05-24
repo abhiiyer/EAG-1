@@ -1,0 +1,50 @@
+[
+    {
+        "timestamp": "2025-05-22 15:19:33.768524",
+        "step": "Compare FD Rates",
+        "status": "Failed",
+        "result": {
+            "error": "Invalid or HITL result \u2014 not a success"
+        }
+    },
+    {
+        "timestamp": "2025-05-22 15:19:43.802916",
+        "step": "Compare FD Rates",
+        "status": "Failed",
+        "result": {
+            "error": "Invalid or HITL result \u2014 not a success"
+        }
+    },
+    {
+        "timestamp": "2025-05-22 15:19:53.842569",
+        "step": "Compare FD Rates",
+        "status": "Failed",
+        "result": {
+            "error": "Invalid or HITL result \u2014 not a success"
+        }
+    },
+    {
+        "timestamp": "2025-05-22 15:20:03.896283",
+        "step": "Compare FD Rates",
+        "status": "Failed",
+        "result": {
+            "error": "Invalid or HITL result \u2014 not a success"
+        }
+    },
+    {
+        "timestamp": "2025-05-22 15:20:13.942774",
+        "step": "Compare FD Rates",
+        "status": "Failed",
+        "result": {
+            "error": "Invalid or HITL result \u2014 not a success"
+        }
+    },
+    {
+        "timestamp": "2025-05-22 15:20:23.990433",
+        "step": "Compare FD Rates",
+        "status": "Failed",
+        "result": {
+            "error": "Invalid or HITL result \u2014 not a success"
+        }
+    }
+]

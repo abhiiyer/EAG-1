@@ -1,0 +1,36 @@
+{
+    "Compare FD Rates": [
+        {
+            "timestamp": "2025-05-22 15:19:33.768502",
+            "status": "Failure"
+        },
+        {
+            "timestamp": "2025-05-22 15:19:43.802888",
+            "status": "Failure"
+        },
+        {
+            "timestamp": "2025-05-22 15:19:53.842557",
+            "status": "Failure"
+        },
+        {
+            "timestamp": "2025-05-22 15:19:53.846400",
+            "status": "HITL Failure"
+        },
+        {
+            "timestamp": "2025-05-22 15:20:03.896270",
+            "status": "Failure"
+        },
+        {
+            "timestamp": "2025-05-22 15:20:13.942750",
+            "status": "Failure"
+        },
+        {
+            "timestamp": "2025-05-22 15:20:23.990414",
+            "status": "Failure"
+        },
+        {
+            "timestamp": "2025-05-22 15:20:23.995228",
+            "status": "HITL Failure"
+        }
+    ]
+}
