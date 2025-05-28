@@ -1,0 +1,5 @@
+flask
+playwright
+duckduckgo_search
+streamlit
+schedule
