@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Adnan Khan",
+    "company": "FinQ Technologies",
+    "city": "Dubai",
+    "trigger": "Raised $5M Seed round",
+    "source": "gulfbusiness.com",
+    "linkedin_url": "https://linkedin.com/in/adnan-khan-finq",
+    "contact_email": "adnan.khan@finqtech.ai",
+    "company_website": "https://finqtech.ai",
+    "has_contact": true
+  },
+  {
+    "name": "Meera Patel",
+    "company": "RevaTech",
+    "city": "Abu Dhabi",
+    "trigger": "Won AI Innovation Award",
+    "source": "zawya.com",
+    "linkedin_url": "",
+    "contact_email": "",
+    "company_website": "https://revatech.ae",
+    "has_contact": false
+  }
+]

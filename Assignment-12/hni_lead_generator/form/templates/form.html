@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HNI Lead Form</title>
+</head>
+<body>
+    <h2>HNI Lead Submission</h2>
+    <form action="/submit" method="POST">
+        <label>Name:</label><br>
+        <input type="text" name="name"><br><br>
+
+        <label>Company:</label><br>
+        <input type="text" name="company"><br><br>
+
+        <label>City:</label><br>
+        <input type="text" name="city"><br><br>
+
+        <label>Trigger Event:</label><br>
+        <input type="text" name="trigger"><br><br>
+
+        <label>Lead Source:</label><br>
+        <input type="text" name="source"><br><br>
+		
+		<input type="hidden" name="data_source" value="REAL">  <!-- or FAKE -->
+		
+		<!-- 
+		<input type="hidden" name="linkedin_url" value="">
+		<input type="hidden" name="contact_email" value="">
+		<input type="hidden" name="company_website" value="">
+		<input type="hidden" name="has_contact" value="">
+		-->
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
