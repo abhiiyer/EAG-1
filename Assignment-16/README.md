@@ -22,6 +22,35 @@ PlannerAgent → RetrieverAgent → ThinkerAgent → CoderAgent (call_self loop)
 
 ---
 
+
+## 🗂️ File-wise Purpose and Example Usage
+
+| File Name     | Purpose                                                      | Example                                                              |
+|:--------------|:-------------------------------------------------------------|:---------------------------------------------------------------------|
+| main.py       | Entry point. Takes a query, runs full pipeline.              | Query = 'Mashreq FX vs FAB 2025'                                     |
+| clarifier.py  | Clarifies the original query using GPT.                      | 'Mashreq FX' → 'Compare Mashreq's FX pricing vs FAB for 2025 in UAE' |
+| retriever.py  | Searches web via Google Search API and extracts raw text.    | Search: 'Mashreq FX strategy 2025 site:thenationalnews.com'          |
+| distiller.py  | Summarizes retrieved articles into clean chunks.             | Input: raw HTML → Output: bullet summary per article                 |
+| planner.py    | Extracts business insights or themes from the summaries.     | Themes: FX innovation, digital onboarding, pricing transparency      |
+| coder.py      | Uses call_self to build sections of HTML report per insight. | Insight → 'Mashreq's FX fees are above market' → 1 section in HTML   |
+| formatter.py  | Applies styling to the final HTML report.                    | Adds color, spacing, fonts to the report                             |
+| qa.py         | Lets user ask follow-up questions about the report.          | Q: 'Which bank had better FX growth?' → Answer from HTML             |
+| summarizer.py | Creates 5-line executive summary for leadership.             | FX fees are high, digital channel lagging, ENBD gaining share...     |
+| /prompts/     | Folder with prompt templates for each agent.                 | `clarification_prompt.txt`, `summarizer_prompt.txt`, etc.            |
+| /outputs/     | Final HTML and TXT files are saved here.                     | `formatted_report.html`, `summary.txt`                               |
+
+---
+
+### ✨ Key Enhancements in This Version
+
+- ✅ `call_self` logic in `coder.py` upgraded to allow up to **4 recursive calls**
+- ✅ Custom logging added to show recursive self-calls in console output
+- ✅ **Q&A capability** added post-report generation (via `qa.py`)
+- ✅ **Executive summary** saved to `outputs/summary.txt`
+- ✅ Clean folder structure: `/prompts`, `/outputs`, all agents modularized
+
+---
+
 ## 🧪 Sample Query Used
 
 ```txt
@@ -35,18 +64,27 @@ Mashreq Bank competitors strategy on Liabilities and revenue (FX/Investment/Insu
 ```
 mashreq_agent/
 ├── main.py                   # Main entry point
-├── planner.py                # PlannerAgent logic
-├── retriever.py              # Article retriever using Google API
-├── thinker.py                # Insight extraction agent
-├── coder.py                  # HTML builder agent with call_self logic
-├── formatter.py              # HTML beautifier
+├── clarifier.py              # Clarifies vague queries using GPT
+├── retriever.py              # Article retriever using Google API + Trafilatura
+├── distiller.py              # Summarizes retrieved articles into key points
+├── planner.py                # PlannerAgent - breaks query into strategic plan
+├── coder.py                  # HTML builder agent using call_self (recursive)
+├── formatter.py              # Beautifies HTML report with clean formatting
+├── qa.py                     # Question Answering agent (post-report Q&A)
+├── summarizer.py             # Executive 5-line summary for leadership
+├── utils.py                  # Common utilities and helper functions
+├── executor.py               # Executes plans and logs output (optional)
 ├── prompts/                  # Prompt files used by each agent
-│   ├── planner_prompt.txt
-│   ├── thinker_prompt.txt
-│   ├── coder_prompt.txt
-│   └── formatter_prompt.txt
-├── outputs/                  # Final HTML reports saved here
-├── .env                      # Your OpenAI + Google API keys (not included in repo)
+│   ├── clarification_prompt.txt
+│   ├── distiller_prompt.txt
+│   ├── qaagent_prompt.txt
+│   ├── summarizer_prompt.txt
+│   ├── retriever_prompt.txt
+│   ├── executor_prompt.txt
+├── outputs/                  # Final HTML reports and summary saved here
+│   ├── formatted_report.html
+│   ├── summary.txt
+├── .env                      # Your OpenAI + Google API keys (excluded from repo)
 ```
 
 ---
@@ -100,19 +138,6 @@ This tool helps **Mashreq’s analytics or strategy team**:
 
 ---
 
-## 🛠️ Optional Files for Future
-
-These files are present but unused in this pipeline. They can be activated for bonus features:
-
-| File         | Purpose                      |
-|--------------|------------------------------|
-| `qa.py`      | Run validation checks on output |
-| `executor.py`| Execute custom code generation |
-| `distiller.py`| Extract tables or summaries from PDFs |
-| `clarification_prompt.txt` | Add user follow-up flow |
-| `summarizer_prompt.txt` | Dedicated summarizer agent prompt |
-
----
 
 ## ✅ Final Output
 
@@ -126,11 +151,13 @@ Open either file in browser 🎉
 
 ---
 
-## 📦 GitHub Submission Tip
+### 🧠 Optional Future Enhancements
 
-Ensure the repo shows:
-1. ✅ Original commit from prof's base
-2. ✅ Your latest commit with all logic and prompt enhancements
+1. Add voice input for question entry
+2. Turn the final HTML into a Streamlit dashboard
+3. Automate browser search using Browser Agent
+4. Push summaries monthly to GitHub or email
+5. Highlight bank-level trends using color-coding inside HTML
 
 ---
 
