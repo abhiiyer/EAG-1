@@ -1,4 +1,4 @@
-# 💡 Mashreq Strategy Copilot (Assignment 16 + Real-World Banking Use-Case)
+# 💡 Mashreq Strategy Copilot (Real-World Banking Use-Case)
 
 This project is a **multi-agent system** that:
 - ✅ Fulfills **Assignment-16** requirements (call_self, multi-agent pipeline, HTML output)
@@ -41,24 +41,6 @@ PlannerAgent → RetrieverAgent → ThinkerAgent → CoderAgent (call_self loop)
 
 ---
 
-### ✨ Key Enhancements in This Version
-
-- ✅ `call_self` logic in `coder.py` upgraded to allow up to **4 recursive calls**
-- ✅ Custom logging added to show recursive self-calls in console output
-- ✅ **Q&A capability** added post-report generation (via `qa.py`)
-- ✅ **Executive summary** saved to `outputs/summary.txt`
-- ✅ Clean folder structure: `/prompts`, `/outputs`, all agents modularized
-
----
-
-## 🧪 Sample Query Used
-
-```txt
-Mashreq Bank competitors strategy on Liabilities and revenue (FX/Investment/Insurance) and what should Mashreq do
-```
-
----
-
 ## 📁 Folder Structure
 
 ```
@@ -89,6 +71,16 @@ mashreq_agent/
 
 ---
 
+### ✨ Key Enhancements in This Version
+
+- ✅ `call_self` logic in `coder.py` upgraded to allow up to **4 recursive calls**
+- ✅ Custom logging added to show recursive self-calls in console output
+- ✅ **Q&A capability** added post-report generation (via `qa.py`)
+- ✅ **Executive summary** saved to `outputs/summary.txt`
+- ✅ Clean folder structure: `/prompts`, `/outputs`, all agents modularized
+
+---
+
 ## 🚀 How to Run
 
 ### 1. 🧱 Install Dependencies
@@ -115,6 +107,35 @@ python main.py
 
 ---
 
+## 💼 Business Use-Case for Mashreq
+
+This tool helps **Mashreq’s analytics or strategy team**:
+- Monitor competitor actions in FX, Insurance, and Liabilities
+- Get monthly HTML summaries from public sources
+- Empower RMs or strategy leads to react fast to FAB, ENBD, ADCB tactics
+
+---
+
+## 🧪 Sample Query Used
+
+```txt
+Mashreq Bank competitors strategy on Liabilities and revenue (FX/Investment/Insurance) and what should Mashreq do
+```
+
+---
+
+## ✅ Final Output
+
+After running, check:
+```
+outputs/final_report.html          ← Basic version
+outputs/formatted_report.html      ← Polished HTML (title + sections)
+```
+
+Open either file in browser 🎉
+
+---
+
 ## 📄 Assignment Checklist ✅
 
 | Requirement                                  | Status |
@@ -126,28 +147,6 @@ python main.py
 | Final HTML report saved                      | ✅ Yes |
 | Prompt files organized                       | ✅ Yes |
 | GitHub-ready code with modular files         | ✅ Yes |
-
----
-
-## 💼 Business Use-Case for Mashreq
-
-This tool helps **Mashreq’s analytics or strategy team**:
-- Monitor competitor actions in FX, Insurance, and Liabilities
-- Get monthly HTML summaries from public sources
-- Empower RMs or strategy leads to react fast to FAB, ENBD, ADCB tactics
-
----
-
-
-## ✅ Final Output
-
-After running, check:
-```
-outputs/final_report.html          ← Basic version
-outputs/formatted_report.html      ← Polished HTML (title + sections)
-```
-
-Open either file in browser 🎉
 
 ---
 
@@ -210,9 +209,6 @@ You can visually validate this in the HTML report or console output.
 ✅ **Ready** — Your GitHub upload should show:
 - Initial commit with base code
 - Final commit with planner/thinker/coder/formatter logic + prompt files
-
----
-
 
 ---
 
